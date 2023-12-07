@@ -1,4 +1,4 @@
-import '../pages/App.jsx'
+import '../styles/App.css'
 
 import Header from '../components/Header'
 
@@ -9,7 +9,7 @@ function App() {
         <Header></Header>
       </div>
       <div className='BodyApp'>
-            aaaa
+        Sobre mim
       </div>
     </div>
   )
