@@ -1,5 +1,7 @@
 .logo{
     width: 240px;
+    margin-left: 10px;
+    
 }
 
 .menu{
@@ -13,13 +15,14 @@
 
 .navbar-brand.color1 {
     color: #e22c50;
+    padding: 10px;
 }
 
 .navbar-brand.color1:hover {
     color: #f33e62;
     background-color: #fde6ea;
    
-    padding: 10px;
+    
     transition: background-color 0.4s ease;
 }
 
