@@ -4,7 +4,7 @@ import '../src/styles/index.css'
 import '../src/bootstrap.js'
 
 import MainRoutes from './routes/routes.js'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter} from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(

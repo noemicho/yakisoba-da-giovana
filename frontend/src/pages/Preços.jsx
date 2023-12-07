@@ -1,6 +1,7 @@
 import '../styles/Preços.css'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function Preços() {
   return (
@@ -10,6 +11,9 @@ function Preços() {
       </div>
       <div className='BodyPreços'>
         Preços
+      </div>
+      <div className='Footer'>
+        <Footer></Footer>
       </div>
     </div>
   )

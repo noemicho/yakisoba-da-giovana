@@ -9,6 +9,7 @@ import Encomende from '../pages/Encomende.jsx'
 function MainRoutes(){
     return (
         <Routes>
+            <Route path='/' element={<App/>}/>
             <Route path='/sobre-mim' element={<App/>}/>
             <Route path='/sabores' element={<Sabores/>}/>
             <Route path='/preços' element={<Preços/>}/>

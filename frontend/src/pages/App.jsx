@@ -1,7 +1,8 @@
 import '../styles/App.css'
 import exemplo from '../images/image.png'
 
-import Header from '../components/Header'
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
           <img className='gigi' src={exemplo} alt='Foto da Giovana'></img>
         </div>
         
-        <span className='Helvetica'>@giovanachinfang</span>
+        <a href="https://www.instagram.com/giovanachinfang/" target="_blank" className='Helvetica header-a'>@giovanachinfang</a>
+      </div>
+      <div className='Footer'>
+        <Footer></Footer>
       </div>
     </div>
   )

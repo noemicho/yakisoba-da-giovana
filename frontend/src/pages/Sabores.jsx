@@ -1,6 +1,7 @@
 import '../styles/Sabores.css'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function Sabores() {
   return (
@@ -10,6 +11,9 @@ function Sabores() {
       </div>
       <div className='BodySabores'>
         Sabores
+      </div>
+      <div className='Footer'>
+        <Footer></Footer>
       </div>
     </div>
   )
