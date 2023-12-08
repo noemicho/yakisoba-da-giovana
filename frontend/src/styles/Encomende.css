@@ -1,8 +1,38 @@
 
 .BodyEncomende{
-    
     background-color: #FFEEEE;
     height: 100vh;
     font-family: 'Codec Cold Trial';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
+.titulo2{
+    
+    font-family: Helvetica Rounded;
+}
+
+.meio-do-meio{
+    font-family: Helvetica;
+    margin-left: 160px;
+}
+
+.meio-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.pe{
+    flex: 1;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.span{
+    color:  #e22c50;
+    font-weight: bold;
+}
