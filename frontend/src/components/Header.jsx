@@ -11,7 +11,7 @@ function Header(){
             <nav class="navbar fixed-top navbar menu">
                 <div class="container-fluid title">
                     <img src={logo} alt="Logo" className="logo color1"></img>
-                    <Link to='/sobre-mim'><a class="navbar-brand color1 pos" href="">Sobre mim</a></Link>
+                    <Link to='/pagina-inicial'><a class="navbar-brand color1 pos" href="">Página Inicial</a></Link>
                     <Link to='/sabores'><a class="navbar-brand color1 pos" href="">Sabores</a></Link>
                     <Link to='/preços'><a class="navbar-brand color1 pos" href="">Preços</a></Link>
                     <Link to='/encomende'><a class="navbar-brand color1 pos" href="">Encomende seu Yakisoba</a></Link>

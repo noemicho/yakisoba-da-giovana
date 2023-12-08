@@ -22,8 +22,6 @@
 .navbar-brand.color1:hover {
     color: #f33e62;
     background-color: #fde6ea;
-   
-    
     transition: background-color 0.4s ease;
 }
 

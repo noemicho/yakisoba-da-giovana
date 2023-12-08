@@ -3,12 +3,14 @@
     flex-direction: row;
     justify-content: center;
     background-color: #ce0b1b;
+    height: 20px;
 }
 
 .padding{
     padding: 3px;
     position: relative;
-    top: 7px;
+    font-size: 12px;
+    bottom: 1px;
 }
 
 .footer-p{

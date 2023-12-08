@@ -10,7 +10,7 @@ function MainRoutes(){
     return (
         <Routes>
             <Route path='/' element={<App/>}/>
-            <Route path='/sobre-mim' element={<App/>}/>
+            <Route path='/pagina-inicial' element={<App/>}/>
             <Route path='/sabores' element={<Sabores/>}/>
             <Route path='/preços' element={<Preços/>}/>
             <Route path='/encomende' element={<Encomende/>}/>
